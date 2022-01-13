@@ -20,8 +20,10 @@ namespace MensajeEspecial
         private void Button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Lo unico imposible es aquello que no intentas... para todo el equipo de CAHSA");
+            MessageBox.Show("Equipo IT CAHSA");
             MessageBox.Show("Alejandrina Contreras Zavala");
             
+
         }
     }
 }
