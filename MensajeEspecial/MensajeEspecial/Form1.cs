@@ -19,11 +19,17 @@ namespace MensajeEspecial
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Lo unico imposible es aquello que no intentas... para todo el equipo de CAHSA");
-            MessageBox.Show("Equipo IT CAHSA");
-            MessageBox.Show("Alejandrina Contreras Zavala");
-            
+            MessageBox.Show("Lo unico imposible es aquello que no intentas... para todo el equipo de CAHSA"
+                            + Environment.NewLine + "Equipo IT CAHSA"
+                            + Environment.NewLine + "Alejandrina Contreras Zavala"
+                            + Environment.NewLine + Environment.NewLine + "Pdt. Vamos a comer hoy");
 
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bienvenidos al curso de GitHub con VS2019. Impartido por Ing. Alejandrina Contreras");
         }
     }
 }
