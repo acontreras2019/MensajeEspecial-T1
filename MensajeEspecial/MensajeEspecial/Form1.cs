@@ -26,5 +26,10 @@ namespace MensajeEspecial
 
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bienvenidos al curso de GitHub con VS2019. Impartido por Ing. Alejandrina Contreras");
+        }
     }
 }
